@@ -16,7 +16,7 @@ const Grid = lazy(() => import("../views/ui/Grid"));
 const Tables = lazy(() => import("../views/ui/Tables"));
 const Forms = lazy(() => import("../views/ui/Forms"));
 const Breadcrumbs = lazy(() => import("../views/ui/Breadcrumbs"));
-const Chagas1 = lazy(() => import("../views/ui/Chagas1"));
+const Chagas2 = lazy(() => import("../views/ui/Chagas2"));
 
 /*****Routes******/
 
@@ -35,7 +35,7 @@ const ThemeRoutes = [
       { path: "/grid", exact: true, element: <Grid /> },
       { path: "/table", exact: true, element: <Tables /> },
       { path: "/forms", exact: true, element: <Forms /> },
-      { path: "/chagas1", exact: true, element: <Chagas1 /> },
+      { path: "/chagas2", exact: true, element: <Chagas2 /> },
       { path: "/breadcrumbs", exact: true, element: <Breadcrumbs /> },
     ],
   },

@@ -42,7 +42,7 @@ const navigation = [
   },
   {
     title: "Chagas",
-    href: "/chagas1",
+    href: "/chagas2",
     icon: "bi bi-textarea-resize",
   },
   {
