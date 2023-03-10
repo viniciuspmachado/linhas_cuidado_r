@@ -3,26 +3,26 @@
 /*Font do projeto*/
 @font-face {
   font-family: 'rawline';
-  src: url(/fonts/rawline-400.ttf) format("truetype"); }
+  src: url(rawline-400.ttf) format("truetype"); }
 
 @font-face {
   font-family: 'rawline';
-  src: url(/fonts/rawline-400i.ttf) format("truetype");
+  src: url(../files/fonts/rawline-400i.ttf) format("truetype");
   font-style: italic; }
 
 @font-face {
   font-family: 'rawline';
-  src: url(/fonts/rawline-400.ttf) format("truetype");
+  src: url(rawline-400.ttf) format("truetype"); 
   font-weight: 400; }
 
 @font-face {
   font-family: 'rawline';
-  src: url(/fonts/rawline-500.ttf) format("truetype");
+  src: url(../files/fonts/rawline-500.ttf) format("truetype");
   font-weight: 500; }
 
 @font-face {
   font-family: 'rawline';
-  src: url(/fonts/rawline-600.ttf) format("truetype");
+  src: url(../files/fonts/rawline-600.ttf) format("truetype");
   font-weight: 600; }
 
 /* colors base */
@@ -62,7 +62,6 @@ article {
 header {
   background-color: #ffffff;
   border-bottom: 5px solid #0f4098;
-  background-image: url(" ../imgs/bg_header.svg");
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -79,7 +78,7 @@ header {
       height: 16px;
       background-repeat: no-repeat;
       background-position: bottom right;
-      background-image: url("../imgs/logo-ministerio-saude.svg");
+      background-image: url("logo-ministerio-saude.svg");
       line-height: 0;
       font-size: 0;
       color: transparent; }
@@ -376,20 +375,20 @@ footer {
     footer .container .row .logo-acesso-footer {
       width: 117px;
       margin-right: 0px;
-      background-image: url("../imgs/acesso_info_white.svg");
+      background-image: url("acesso_info_white.svg");
       background-size: 90%;
       background-repeat: no-repeat; }
     footer .container .row .logo-governo-federal {
       width: 160px;
       background-repeat: no-repeat;
       background-position: bottom right;
-      background-image: url("../imgs/patria_amada.svg");
+      background-image: url("acesso_info_white.svg");
       background-size: 90%; }
     footer .container .row .logo-ministerio-saude-white {
       width: 190px;
       background-repeat: no-repeat;
       background-position: center left;
-      background-image: url("../imgs/logo-ministerio-saude-white.svg"); }
+      background-image: url("logo-ministerio-saude-white.svg"); }
     footer .container .row .logo-acesso-footer,
     footer .container .row .logo-governo-federal,
     footer .container .row .logo-ministerio-saude-white {
@@ -679,425 +678,3 @@ td p {
 .uppercase-green {
   font-size: 1.5em;
   color: #168821; }
-
-.container.flex {
-  display: flex; }
-
-.container .item {
-  margin: 0 1.25rem 1.25rem 0;
-  display: flex;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  font-size: 1rem; }
-  .container .item.colorcards {
-    min-width: 14.375rem;
-    background-color: #f8f8f8;
-    width: min-content;
-    width: -moz-min-content;
-    width: -webkit-min-content;
-    min-height: 7.125rem; }
-  .container .item.colorcards-autismo {
-    box-shadow: none;
-    background-color: #f8f8f8;
-    width: min-content;
-    width: -moz-min-content;
-    width: -webkit-min-content;
-    min-height: 7.125rem;
-    min-width: 12rem !important; }
-    @media (max-width: 1199.98px) {
-      .container .item.colorcards-autismo {
-        min-width: 14.375rem !important; } }
-    @media (max-width: 991.98px) {
-      .container .item.colorcards-autismo {
-        min-width: 10rem !important; } }
-  .container .item.colorcards-12 {
-    min-width: 12rem !important; }
-  .container .item.colorcards-10 {
-    min-width: 14.375rem !important; }
-    @media (max-width: 1199.98px) {
-      .container .item.colorcards-10 {
-        min-width: 14.375rem !important; } }
-    @media (max-width: 991.98px) {
-      .container .item.colorcards-10 {
-        min-width: 10rem !important; } }
-  @media (max-width: 991.98px) {
-    .container .item.colorcards-5 {
-      min-width: 5rem !important; } }
-  .container .item.cards {
-    min-width: 12rem;
-    background-color: #f8f8f8;
-    width: min-content;
-    width: -moz-min-content;
-    width: -webkit-min-content;
-    margin: 0 0.9375rem 1.25rem 0; }
-    .container .item.cards .blue {
-      background-color: #2b74e9; }
-  .container .item.colorcards-puericultura {
-    min-width: 11.375rem !important; }
-    @media (max-width: 1199.98px) {
-      .container .item.colorcards-puericultura {
-        min-width: 14.375rem !important; } }
-    @media (max-width: 991.98px) {
-      .container .item.colorcards-puericultura {
-        min-width: 10rem !important; } }
-  .container .item.colorcards-alcool {
-    min-width: 11.375rem !important; }
-    @media (max-width: 1199.98px) {
-      .container .item.colorcards-alcool {
-        min-width: 11.375rem !important; } }
-    @media (max-width: 991.98px) {
-      .container .item.colorcards-alcool {
-        min-width: 8rem !important; } }
-  .container .item .content {
-    padding: 0.5rem;
-    text-align: center; }
-    .container .item .content.one-item {
-      padding: 0; }
-    .container .item .content i {
-      margin-bottom: 0.5rem; }
-    .container .item .content p {
-      margin-bottom: 0; }
-  .container .item a {
-    text-decoration: none;
-    width: 100%;
-    padding: 1rem; }
-  .container .item:hover {
-    box-shadow: 0 0.5rem 1rem rgba(12, 50, 111, 0.25); }
-
-.container .text-black {
-  color: #000; }
-
-.container .text-green {
-  color: #168821; }
-
-.container .text-red {
-  color: #e60000; }
-
-.container .text-red-light {
-  color: #fb6b6d; }
-
-.container .text-red-lighter {
-  color: #f88183; }
-
-.container .text-yellow {
-  color: #ffcd07; }
-
-.container .text-grey {
-  color: #555555; }
-
-.container .text-blue-circle {
-  color: #40596b; }
-
-.container .text-blue-dark {
-  color: #0c326f; }
-
-.container .text-blue-links {
-  color: #0f4098; }
-
-.container .text-blue {
-  color: #2a66bc; }
-
-.container .text-white {
-  color: #ffffff; }
-
-.container .text-orange {
-  color: #db4800; }
-
-.container .bg-green {
-  background-color: #00af80; }
-
-.container .bg-yellow {
-  background-color: #ffd15c; }
-
-.container .bg-yellow-red {
-  background: linear-gradient(90deg, #ffd15c 0%, #fb6b6d 100%);
-  background-color: #ffd15c; }
-
-.container .bg-red {
-  background-color: #fb6b6d; }
-
-.container .bg-green-light {
-  background-color: #d9ead3; }
-
-.container .bg-light-green {
-  background-color: #a9d18e; }
-
-.container .bg-light-red {
-  background-color: #ff9c9c; }
-
-.container .bg-light-orange {
-  background-color: #ffb451; }
-
-.container .bg-light-yellow {
-  background-color: #ffd78c; }
-
-.container .bg-orange {
-  background-color: #f69943; }
-
-.container .bg-orange-scale {
-  background-color: #fda946; }
-
-.container .bg-grey300 {
-  background-color: #9e9d9d; }
-
-.container .bg-table-grey {
-  background-color: #999999; }
-
-.container .bg-table-dark-grey {
-  background-color: #444444; }
-
-.container .bg-table-light-grey {
-  background-color: #e9ecef; }
-
-.container .bg-table-light-blue {
-  background-color: #aed3fb; }
-
-.container .bg-table-dark-blue {
-  background-color: #0e80f3; }
-
-.container .bg-orange-light {
-  background-color: #f9cb9c; }
-
-.alert {
-  display: flex; }
-  .alert i:before {
-    font-size: 1.375rem; }
-  .alert p {
-    margin-bottom: 0; }
-  .alert .fas {
-    float: left;
-    padding: 0rem 1rem 0rem 0rem; }
-
-.yellow.colorcards {
-  border-top: 8px solid #ffcd07;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px; }
-
-.yellow.colorcards-sm {
-  border-top: 8px solid #ffcd07;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  min-width: 12.375rem;
-  background-color: #f8f8f8;
-  width: min-content;
-  width: -moz-min-content;
-  width: -webkit-min-content;
-  min-height: 7.125rem; }
-
-.yellow a {
-  color: #333333; }
-
-.yellow i {
-  background-color: #ffcd07;
-  color: #333333; }
-
-.red.colorcards {
-  border-top: 8px solid #fb6b6d;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px; }
-
-.red.colorcards-sm {
-  border-top: 8px solid #fb6b6d;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  min-width: 12.375rem;
-  background-color: #f8f8f8;
-  width: min-content;
-  width: -moz-min-content;
-  width: -webkit-min-content;
-  min-height: 7.125rem; }
-
-.red a {
-  color: #e60000; }
-
-.red i {
-  background-color: #fb6b6d;
-  color: #ffffff; }
-
-.red.bg {
-  background-color: #fb6b6d;
-  color: #ffffff; }
-
-.green.colorcards {
-  border-top: 8px solid #168821;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px; }
-
-.green.colorcards-sm {
-  border-top: 8px solid #168821;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  min-width: 12.375rem;
-  background-color: #f8f8f8;
-  width: min-content;
-  width: -moz-min-content;
-  width: -webkit-min-content;
-  min-height: 7.125rem; }
-
-.green a {
-  color: #168821; }
-
-.green i {
-  background-color: #168821;
-  color: #ffffff; }
-
-.orange.colorcards {
-  border-top: 8px solid #f69943;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px; }
-
-.orange.colorcards-sm {
-  border-top: 8px solid #f69943;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  min-width: 12.375rem;
-  background-color: #f8f8f8;
-  width: min-content;
-  width: -moz-min-content;
-  width: -webkit-min-content;
-  min-height: 7.125rem; }
-
-.orange a {
-  color: #db4800; }
-
-.orange i {
-  background-color: #f69943;
-  color: #ffffff; }
-
-.blue i {
-  background-color: #2a66bc;
-  color: #ffffff; }
-
-.grey.bg {
-  background-color: #ededed; }
-
-.grey i {
-  color: #f69943; }
-
-.circle {
-  border-radius: 100%;
-  width: 60px;
-  height: 60px;
-  border-radius: 16px;
-  color: #ffffff;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); }
-  .circle.red {
-    background: #fb6b6d; }
-  .circle.green {
-    background-color: #168821; }
-  .circle.blue {
-    background-color: #2a66bc; }
-  .circle.blue-light {
-    background-color: #5992ed; }
-  .circle.grey-light {
-    background-color: #9e9d9d; }
-  .circle.violet {
-    background-color: #b24da4; }
-  .circle.sm-circle {
-    width: 16px;
-    height: 16px; }
-
-.grey700 {
-  color: #555555; }
-
-.red-atention {
-  border: 2px solid #ff5c5c;
-  background-color: #fb6b6d;
-  padding: 5px;
-  line-height: 2.2em;
-  border-radius: 10px;
-  color: white; }
-
-.orange-atention {
-  border: 2px solid #fd7e14;
-  background-color: #f69943;
-  padding: 5px;
-  line-height: 2.2em;
-  border-radius: 10px;
-  color: white; }
-
-.yellow-atention {
-  border: 2px solid #fcc40d;
-  background-color: #ffcd07;
-  padding: 5px;
-  line-height: 2.2em;
-  border-radius: 10px;
-  color: #1a1a1a; }
-
-.green-atention {
-  border: 2px solid #01a076;
-  background-color: #00af80;
-  padding: 5px;
-  line-height: 2.2em;
-  border-radius: 10px;
-  color: #1a1a1a; }
-
-.text-red-atention {
-  border: 2px solid #ff5c5c;
-  background-color: #fb6b6d;
-  padding: 5px;
-  border-radius: 10px;
-  color: white; }
-
-.text-orange-atention {
-  border: 2px solid #fd7e14;
-  background-color: #f69943;
-  padding: 5px;
-  border-radius: 10px;
-  color: white; }
-
-.text-yellow-atention {
-  border: 2px solid #fcc40d;
-  background-color: #ffcd07;
-  padding: 5px;
-  border-radius: 10px;
-  color: #1a1a1a; }
-
-.red-signal {
-  border: 1px solid #ff5c5c;
-  background-color: #fb6b6d;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
-  width: 10px; }
-
-.orange-signal {
-  border: 1px solid #fc6520;
-  background-color: #fd7e14;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
-  width: 10px; }
-
-.yellow-signal {
-  border: 1px solid #fcc40d;
-  background-color: #ffcd07;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
-  width: 10px; }
-
-.green-signal {
-  border: 1px solid #14a734;
-  background-color: #168821;
-  border-radius: 50%;
-  display: inline-block;
-  height: 10px;
-  width: 10px; }
-
-.blue-atention {
-  border: 2px solid #aed3fb;
-  background-color: #aed3fb;
-  padding: 5px;
-  line-height: 2.2em;
-  border-radius: 10px;
-  color: #1a1a1a; }

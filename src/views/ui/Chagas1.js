@@ -45,6 +45,255 @@ const Chagas1 = () => {
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center"><span class="vertical-line arrow-bottom">.</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-outline-primary">Notificação de caso suspeito de DCA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <span class="vertical-line arrow-bottom">.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        <a href="#" class="btn btn-outline-primary">Coleta de amostras de sangue periférico - para testes <br/>parasitológicos e sorológicos silmultaneamente</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-center">
+                        <span class="vertical-line arrow-bottom">.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-3 col-6 n-pad">
+                    <div class="d-flex justify-content-center">
+                        <hr/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                  <div class="col-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-center">
+                                    <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="d-flex justify-content-center">
+                            <div class="btn btn-primary disabled  fluxo-radius align-middle align-items-center d-flex justify-content-center min-w-50 flex-column">
+                                <span>Realizar exames parasitológicos</span>
+                            </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12">
+                          <div class="d-flex justify-content-center">
+                              <span class="vertical-line arrow-bottom">.</span>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="offset-3 col-6 n-pad">
+                            <div class="d-flex justify-content-center">
+                                <hr />
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="row">
+                        <div class="col-6">
+                            <div class="col-12">
+                                    <div class="d-flex justify-content-center">
+                                        <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                    </div>
+                            </div>
+
+                            <div class="row">                        
+                                <div class="col-12">
+                                    <div class="d-flex justify-content-center">
+                                            <div class="d-flex justify-content-center">
+                                                <div className="btn btn-secondary disabled fluxo-radius align-middle align-items-center d-flex justify-content-center flex-column">
+                                                    <span style={{"font-size": "80%;"}}>Resultado Positivo</span>                              
+                                                </div>    
+                                            </div>    
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center">
+                                                <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="item colorcards samu">
+                                            <div class="content align-middle align-items-center d-flex justify-content-center">
+                                                    <span style={{"font-size": "80%;"}}>Confirma o caso</span>
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-6">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-center">
+                                    <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                </div>
+                            </div>
+                            <div class="row">                        
+                                <div class="col-12">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="btn btn-secondary disabled fluxo-radius align-middle align-items-center d-flex justify-content-center flex-column">
+                                                <span style={{"font-size": "80%;"}}>Resultado Negativo</span>                              
+                                            </div>    
+                                        </div>    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex justify-content-center">
+                                        <span class="vertical-line arrow-bottom">.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center">
+                                <div class="btn btn-primary disabled  fluxo-radius align-middle align-items-center d-flex justify-content-center min-w-50 flex-column">
+                                    <span>Repetir o exame</span>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-center">
+                                <span class="vertical-line arrow-bottom">.</span>
+                            </div>
+
+                            <div class="row">    
+                                <div class="row">
+                                    <div class="offset-3 col-6 n-pad">
+                                            <div class="d-flex justify-content-center">
+                                                <hr/>
+                                            </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center">
+                                                <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">                        
+                                            <div class="col-12">
+                                                <div class="d-flex justify-content-center">
+                                                    <a class="btn btn-outline-primary" style={{"cursor": "default;"}}>
+                                                        <span style={{"font-size": "90%;"}}>Resultado Positivo</span>
+                                                        
+                                                    </a>
+                                                </div>   
+                                            </div>
+                                            
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="d-flex justify-content-center">
+                                                                <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="d-flex justify-content-center">
+                                                        <div class="item colorcards samu">
+                                                            <div class="content align-middle align-items-center d-flex justify-content-center">
+                                                                    <span style={{"font-size": "80%;"}}>Confirma o caso</span>
+                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+
+                                    <div class="col-6">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-center">
+                                                <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                            </div>
+                                        </div>
+                                                              
+                                            <div class="col-12">
+                                               
+                                                    
+                                                        <div class="d-flex justify-content-center">
+                                                            <a class="btn btn-outline-primary" style={{"cursor":"default"}}>
+                                                                <span style={{"font-size": "90%;"}}>Resultado Negativo</span>
+                                                                
+                                                            </a>
+                                                        </div>   
+                                               
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="d-flex justify-content-center">
+                                                                <span class="vertical-line arrow-bottom arrow-before">.</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="d-flex justify-content-center">
+                                                        <div class="item colorcards samu">
+                                                            <div class="content align-middle align-items-center d-flex justify-content-center">
+                                                                <span style={{"font-size": "80%;"}}>Descartar o caso se os exames sorológicos também forem negativos</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                       
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                  </div>
+
+            </div>
+
+
           </section>    
 
       </article>

@@ -3,7 +3,7 @@
 /*Font do projeto*/
 @font-face {
   font-family: 'rawline';
-  src: url(/fonts/rawline-400.ttf) format("truetype"); }
+  src: url(rawline-400.ttf) format("truetype"); }
 
 @font-face {
   font-family: 'rawline';
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'rawline';
-  src: url(../fonts/rawline-400.ttf) format("truetype");
+  src: url(rawline-400.ttf) format("truetype");
   font-weight: 400; }
 
 @font-face {
@@ -66,7 +66,6 @@ article {
 header {
   background-color: #ffffff;
   border-bottom: 5px solid #0f4098;
-  background-image: url(" ../imgs/bg_header.svg");
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -83,7 +82,7 @@ header {
       height: 16px;
       background-repeat: no-repeat;
       background-position: bottom right;
-      background-image: url("../imgs/logo-ministerio-saude.svg");
+      background-image: url("logo-ministerio-saude.svg");
       line-height: 0;
       font-size: 0;
       color: transparent; }
@@ -374,20 +373,19 @@ footer {
     footer .container .row .logo-acesso-footer {
       width: 117px;
       margin-right: 0px;
-      background-image: url("../imgs/acesso_info_white.svg");
+      background-image: url("acesso_info_white.svg");
       background-size: 90%;
       background-repeat: no-repeat; }
     footer .container .row .logo-governo-federal {
       width: 160px;
       background-repeat: no-repeat;
       background-position: bottom right;
-      background-image: url("../imgs/patria_amada.svg");
       background-size: 90%; }
     footer .container .row .logo-ministerio-saude-white {
       width: 190px;
       background-repeat: no-repeat;
       background-position: center left;
-      background-image: url("../imgs/logo-ministerio-saude-white.svg"); }
+      background-image: url("logo-ministerio-saude-white.svg"); }
     footer .container .row .logo-acesso-footer,
     footer .container .row .logo-governo-federal,
     footer .container .row .logo-ministerio-saude-white {
